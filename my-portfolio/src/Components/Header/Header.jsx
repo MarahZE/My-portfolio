@@ -5,7 +5,6 @@ import profile_img from '../../assets/profile.jpg';
 const Header = () => {
   return (
     <div className="header">
-      <img src= {profile_img} alt="" />
       <h1>
         Jag är nyutexaminerad datavetenskapsstudent från Stockholms universitet.
       </h1>
