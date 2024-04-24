@@ -1,0 +1,36 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.project-title{
+    position: relative;
+}
+
+.project-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px
+}
+
+.projects-container img{
+    width: 419px;
+    height: 280px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    
+}
+
+.projects-container p {
+    text-align: center;
+}
