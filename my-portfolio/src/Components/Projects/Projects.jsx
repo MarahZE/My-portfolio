@@ -22,9 +22,9 @@ const mywork_data = [
   },
 ];
 
-const Porjects = () => {
+const Projects = () => {
   return (
-    <div className="projects">
+    <div id = 'Projects' className="projects">
       <div className="project-title">
         <h1>My latest work</h1>
       </div>
@@ -42,4 +42,4 @@ const Porjects = () => {
   );
 };
 
-export default Porjects;
+export default Projects;

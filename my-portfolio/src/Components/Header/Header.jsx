@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile.jpg';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div id = 'Header' className="header">
       <h1>
         Jag är nyutexaminerad datavetenskapsstudent från Stockholms universitet.
       </h1>
