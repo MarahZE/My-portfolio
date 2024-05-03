@@ -1,55 +1,39 @@
 .header{
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 35px;
     margin-top: 30px;
+    margin-bottom: 300px;
+    width: 100%;
+    z-index: 1;
 }
 
 .header h1{
     text-align: center;
-    width: 70%;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.header p{
-    width: 50%;
-    text-align: center;
-    font-size: 24px;
-    line-height: 40px;
-}
-
-.header-action{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-top: 500px;
+    
 }
 
-.header-connect{
-    padding: 25px 45px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #2359B9 102.06%);
-    cursor: pointer;
-}
 
-.header-resume{
-    padding: 25px 75px;
-    border-radius: 50px;
-    border: 2px solid #FFF;
-    cursor: pointer;
-}
+.background-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
 
-.header-connect:hover{
-    border: 2px solid white;
-}
 
-.header-resume:hover{
-    border-color: #DA7C25;
-}
+
 
 @media(max-width:768px) {
     .header h1 {
@@ -58,27 +42,5 @@
         font-size: 50px;
     }
 
-    .header p {
-        width: 60%;
-        font-size: 18px;
-        line-height: 32px;
-        margin: 10px 0px
-    }
 
-    .header-action {
-        gap: 16px;
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 50px;
-    }
-
-    .header-connect{
-        padding: 20px 30px;
-        border-radius: 40px;
-    }
-
-    .header-resume{
-        padding: 20px 50px;
-        border-radius: 40px;
-    }
 }

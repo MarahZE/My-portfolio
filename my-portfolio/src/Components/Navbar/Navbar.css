@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 80px;
+    margin: 10px 10px;
 }
 
 .nav-menu{
@@ -34,12 +34,24 @@
     display: none;
 }
 
+.github img {
+    width: 50px;
+    height: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 @media(max-width:768px) {
     .navbar{
         margin: 20px 50px;
     }
 
     .nav-connect{
+        display: none;
+    }
+
+    .github{
         display: none;
     }
 

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.svg";
+import icon from "../../assets/github.svg";
 import menu_open from "../../assets/menuopen.svg";
 import menu_close from "../../assets/x-letter.svg";
 import { Link as AnchorLink } from "react-scroll";
@@ -44,6 +45,12 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-connect">Connect With Me</div>
+      <div className="github">
+        {" "}
+        <a href="https://github.com/MarahZE">
+          <img src={icon} alt="" />
+        </a>
+      </div>
     </div>
   );
 };

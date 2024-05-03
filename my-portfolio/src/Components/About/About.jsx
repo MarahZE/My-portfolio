@@ -10,10 +10,7 @@ const About = () => {
         </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={img} alt="" />
-        </div>
-        <div className="about-right">
-          <div className="about-para">
+        <div className="about-para">
             <p>
               Som en datavetenskapsstudent som examineras 2024 från Stockholms
               universitet, har jag uppnått kompetens inom programvaruutveckling,
@@ -23,6 +20,9 @@ const About = () => {
               banbrytande projekt.
             </p>
           </div>
+        </div>
+        <div className="about-right">
+          
           <div className="about-skills">
             <div className="about-skill">
               <p>
