@@ -19,8 +19,11 @@
 }
 
 .about-sections{
-    display: flex;
-    gap: 80px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px
+
 }
 
 .about-left img{
@@ -49,7 +52,7 @@
 }
 
 .about-skill{
-    display: flex;
+    
     gap: 50px;
     align-items: center;
     transition: 0.3s;
