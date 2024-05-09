@@ -5,8 +5,8 @@
 
 body{
   height: 100vh;
-  background: black;
-  color: white;
+  background: rgb(255, 255, 255);
+  color: black;
   font-family: 'outfit';
 
 }

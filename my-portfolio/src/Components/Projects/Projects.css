@@ -19,18 +19,22 @@
 
 .projects-container{
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 40px
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
+.project{
+    width: 100%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
 .projects-container img{
-    width: 419px;
-    height: 280px;
-    box-sizing: border-box;
-    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
     
 }
 
-.projects-container p {
-    text-align: center;
+.projects-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
 }

@@ -26,13 +26,13 @@ const Projects = () => {
   return (
     <div id = 'Projects' className="projects">
       <div className="project-title">
-        <h1>My latest work</h1>
+        <h1>My projects</h1>
       </div>
       <div className="projects-container">
         {mywork_data.map((work, index) => {
          return (
-            <div key={index}>
-              <p>{work.w_name}</p>
+            <div key={index} className="project">
+              <h3>{work.w_name}</h3>
               <img src={work.w_img} alt={work.title} />
             </div>
           );;

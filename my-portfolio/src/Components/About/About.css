@@ -86,12 +86,13 @@
     }
 
     .about-sections{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px
+    
     }
 
-    .about-left{
-        display: none;
-    }
+    
 
     .about-para{
         font-size: 18px;

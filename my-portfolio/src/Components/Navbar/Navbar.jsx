@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.svg";
 import icon from "../../assets/github.svg";
+import iconLinkedin from "../../assets/linkedin.svg"
 import menu_open from "../../assets/menuopen.svg";
 import menu_close from "../../assets/x-letter.svg";
 import { Link as AnchorLink } from "react-scroll";
@@ -44,11 +45,14 @@ const Navbar = () => {
           <AnchorLink to="Contact">Contact</AnchorLink>
         </li>
       </ul>
-      <div className="nav-connect">Connect With Me</div>
-      <div className="github">
-        {" "}
+      
+      <div className="icon">
+        
         <a href="https://github.com/MarahZE">
           <img src={icon} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/marah-zeibak">
+          <img src={iconLinkedin} alt="" />
         </a>
       </div>
     </div>
