@@ -1,11 +1,15 @@
 .navbar{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
     margin: 10px 10px;
+    z-index: 1;
 }
 
+
 .nav-menu{
+    
     display: flex;
     align-items: center;
     list-style: none;

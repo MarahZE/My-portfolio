@@ -3,6 +3,7 @@ import "./Projects.css";
 import project1_img from "../../assets/project1.png";
 import project2_img from "../../assets/project2.png";
 import project3_img from "../../assets/project3.png";
+import project4_img from "../../assets/project4.png";
 
 const mywork_data = [
   {
@@ -20,6 +21,11 @@ const mywork_data = [
     w_name: "My Diary",
     w_img: project3_img,
   },
+  {
+    w_no: 4,
+    w_name: "FTPServer-Client",
+    w_img: project4_img,
+  }
 ];
 
 const Projects = () => {
