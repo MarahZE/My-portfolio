@@ -45,6 +45,8 @@
     font-weight: 500;
 }
 
+
+
 .about-skills{
     display: flex;
     flex-direction: column;
@@ -77,18 +79,20 @@
     .about{
         gap: 80px;
         margin: 50px 70px;
-        align-items: start;
+        align-items: center;
     }
 
     .about-title h1{
-        font-size: 50px;
+        font-size: 40px;
         padding: 0;
     }
 
     .about-sections{
+        margin-left: 40px;
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px
+        
     
     }
 

@@ -11,7 +11,6 @@ const About = () => {
       <div className="about-sections">
         <div className="about-left">
           <div className="about-para">
-            <h1>About Me</h1>
             <p>
               As a computer science student graduating in 2024 from Stockholm
               University, I have acquired skills in software development,
@@ -20,6 +19,7 @@ const About = () => {
               looking forward to collaborating and contributing to
               groundbreaking projects.
             </p>
+            
           </div>
         </div>
         <div className="about-right">
