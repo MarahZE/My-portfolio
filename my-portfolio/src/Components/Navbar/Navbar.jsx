@@ -5,6 +5,7 @@ import icon from "../../assets/github.svg";
 import iconLinkedin from "../../assets/linkedin.svg"
 import menu_open from "../../assets/menuopen.svg";
 import menu_close from "../../assets/x-letter.svg";
+import iconmail from "../../assets/mail.svg";
 import { Link as AnchorLink } from "react-scroll";
 
 const Navbar = () => {
@@ -54,6 +55,7 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/marah-zeibak">
           <img src={iconLinkedin} alt="" />
         </a>
+        <img src={iconmail} alt="" />
       </div>
     </div>
   );
