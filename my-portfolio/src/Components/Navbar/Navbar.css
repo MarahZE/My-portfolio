@@ -27,10 +27,6 @@
 
 }
 
-.nav-menu li:active {
-    color: rgb(117, 143, 143);
-}
-
 
 .nav-mob-close{
     display: none;

@@ -1,7 +1,6 @@
 .projects{
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
@@ -46,5 +45,23 @@
 
     .projects-container{
         grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:320px) {
+    .projects{
+        text-align: center;
+        margin: 80px 70px;
+    }
+    .project-title h1{
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .projects-container img{
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+        
     }
 }

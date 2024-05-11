@@ -4,8 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div id="About" className="about">
-      <div className="about-title">
-      </div>
+      
       <div className="about-sections">
         <div className="about-left">
           <div className="about-para">
@@ -27,7 +26,7 @@ const About = () => {
               <h1>Education</h1> <br></br>
               <p>
               STOCKHOLM UNIVERSITY Bachelor in Computer Science 2020-2024
-                <hr />
+               
               </p>
             </div>
             <div className="about-skill">
@@ -39,13 +38,13 @@ const About = () => {
               <p>Software Development.</p>
               <p>
                 Human-Computer Interaction (HCI).
-                <hr style={{ width: "60%" }} />{" "}
+                
               </p>
             </div>
             <div className="about-skill">
               <h1>Languages</h1>
               <p>
-                English, Swedish <hr style={{ width: "50%" }} />
+                English, Swedish 
               </p>
             </div>
           </div>
