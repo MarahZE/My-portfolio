@@ -20,7 +20,7 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <h1>Portfolio</h1>
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
         <img
@@ -41,10 +41,7 @@ const Navbar = () => {
           {" "}
           <AnchorLink to="Projects">Porjects </AnchorLink>
         </li>
-        <li>
-          {" "}
-          <AnchorLink to="Contact">Contact</AnchorLink>
-        </li>
+        
       </ul>
       
       <div className="icon">

@@ -1,16 +1,15 @@
 import React from "react";
 import "./About.css";
-import img from "../../assets/profile-img.jpg";
 
 const About = () => {
   return (
     <div id="About" className="about">
       <div className="about-title">
-        <h1>About me</h1>
       </div>
       <div className="about-sections">
         <div className="about-left">
           <div className="about-para">
+          <h1>About me</h1>
             <p>
               As a computer science student graduating in 2024 from Stockholm
               University, I have acquired skills in software development,
