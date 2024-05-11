@@ -1,9 +1,15 @@
 .navbar{
     display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff; /* Change this to your desired background color */
+  z-index: 1000; /* Set z-index to make sure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-menu{
@@ -19,6 +25,10 @@
     cursor: pointer;
     font-size: 30px;
 
+}
+
+.nav-menu li:active {
+    color: rgb(117, 143, 143);
 }
 
 
