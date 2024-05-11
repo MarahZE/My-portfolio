@@ -102,7 +102,7 @@
     }
 }
 
-@media(max-width:320px) {
+@media(max-width:425px) {
     .about{
         gap: 80px;
         margin: 50px 70px;

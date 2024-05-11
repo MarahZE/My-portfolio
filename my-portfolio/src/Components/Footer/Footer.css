@@ -11,7 +11,7 @@
     font-size: 18px;
 }
 
-@media(max-width:320px) {
+@media(max-width:425px) {
     .footer-bottom{
         font-size: 10px;
     }
