@@ -52,7 +52,9 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/marah-zeibak">
           <img src={iconLinkedin} alt="" />
         </a>
+        <a href="mailto:zeibakmarah@gmail.com">
         <img src={iconmail} alt="" />
+        </a>
       </div>
     </div>
   );

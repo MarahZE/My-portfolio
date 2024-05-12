@@ -4,11 +4,13 @@ import "./About.css";
 const About = () => {
   return (
     <div id="About" className="about">
-      
+      <div className="about-title">
+        <h1>About me</h1>
+      </div>
       <div className="about-sections">
         <div className="about-left">
           <div className="about-para">
-          <h1>About me</h1>
+          
             <p>
               As a computer science student graduating in 2024 from Stockholm
               University, I have acquired skills in software development,
@@ -26,7 +28,6 @@ const About = () => {
               <h1>Education</h1> <br></br>
               <p>
               STOCKHOLM UNIVERSITY Bachelor in Computer Science 2020-2024
-               
               </p>
             </div>
             <div className="about-skill">
