@@ -1,11 +1,10 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
 import icon from "../../assets/github.svg";
-import iconLinkedin from "../../assets/linkedin.svg"
+import iconLinkedin from "../../assets/linkedin.svg";
+import iconmail from "../../assets/mail.svg";
 import menu_open from "../../assets/menuopen.svg";
 import menu_close from "../../assets/x-letter.svg";
-import iconmail from "../../assets/mail.svg";
 import { Link as AnchorLink } from "react-scroll";
 
 const Navbar = () => {
