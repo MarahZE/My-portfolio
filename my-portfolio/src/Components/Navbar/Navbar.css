@@ -74,14 +74,15 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #1F0016;
+        background-color: #f7f7f7;
         width: 350px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
-        color: aliceblue;
+        color: black;
     }
+
 
     .nav-menu li{
         font-size: 30px;

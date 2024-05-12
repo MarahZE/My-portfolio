@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
             <hr />
             <div className="footer-bottom">
-                <p>© 2024 All rights reserved. Designed by Marah Zeibak.  </p>
+                <p>2024 Designed and developed by Marah Zeibak. </p>
             </div>
         </div>
     )
