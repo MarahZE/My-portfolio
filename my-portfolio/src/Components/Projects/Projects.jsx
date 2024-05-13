@@ -4,6 +4,8 @@ import project1_img from "../../assets/project1.png";
 import project2_img from "../../assets/project2.png";
 import project3_img from "../../assets/project3.png";
 import project4_img from "../../assets/project4.png";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const mywork_data = [
   {
@@ -28,6 +30,8 @@ const mywork_data = [
   }
 ];
 
+const handelClick= () => console.log("Hello");
+
 const Projects = () => {
   return (
     <div id = 'Projects' className="projects">
@@ -39,7 +43,9 @@ const Projects = () => {
          return (
             <div key={index} className="project">
               <h3>{work.w_name}</h3>
-              <img src={work.w_img} alt={work.title} />
+              <Zoom>
+              <img src={work.w_img} alt={work.title} onClick={handelClick}/>
+              </Zoom>
             </div>
           );;
         })}

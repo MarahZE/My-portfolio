@@ -117,10 +117,11 @@
 
 @media(max-width:430px) {
     .about{
-        gap: 80px;
+        gap: 20px;
         margin: 50px 40px;
         align-items: center;
     }
+
 
     .about-title h1{
         font-size: 30px;

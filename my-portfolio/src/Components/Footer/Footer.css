@@ -14,6 +14,21 @@
     font-size: 18px;
 }
 
+@media(max-width:768px) {
+.footericon{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footericon img {
+    width: 50px;
+    height: 50px;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}}
+
 @media(max-width:430px) {
     .footer-bottom{
         font-size: 10px;
