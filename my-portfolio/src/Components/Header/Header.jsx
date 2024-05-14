@@ -1,21 +1,32 @@
 import React from "react";
+import MovingComponent from "react-moving-text";
 import "./Header.css";
-import backgrund from '../../assets/backgrund.jpg';
-
-
-
+import backgrund from "../../assets/backgrund.jpg";
 
 const Header = () => {
-
   return (
     <div id="Header" className="header">
-    <div className="background-img">
-      <img src={backgrund} alt="" />
+      <div className="background-img">
+        <img src={backgrund} alt="hero image" />
+      </div>
+      <h1>
+        Hi, I'm{" "}
+        <span style={{ display: "inline-block" }} className="span-text">
+          <MovingComponent
+            type="squeezeVertical"
+            duration="1500ms"
+            delay="0.2s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none"
+          >
+            Marah Zeibak{" "}
+          </MovingComponent>{" "}
+        </span>
+        , a recent graduate in computer science from Stockholm University.
+      </h1>
     </div>
-    <h1>
-     Hi, I'm Marah Zeibak, a recent graduate in computer science from Stockholm University.
-    </h1>
-  </div>
   );
 };
 
