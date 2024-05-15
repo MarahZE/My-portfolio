@@ -20,7 +20,7 @@ const Header = () => {
             delay="0.2s"
             direction="normal"
             timing="ease"
-            iteration="2"
+            iteration="1"
             fillMode="none"
           >
             Marah Zeibak{" "}

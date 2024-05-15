@@ -56,6 +56,9 @@
         width: 40%;
     }
 
+    .span-text{
+        color: rgb(238, 231, 231);
+    }
 
 }
 
@@ -70,6 +73,10 @@
         margin-bottom: 150px;
     }
 
+    .span-text{
+        color: rgb(238, 231, 231);
+    }
+
     .header h1 {
         margin-top: 150px;
         width: 50%;
@@ -79,9 +86,6 @@
     }
 
     .background-img img{
-        
-
         height: 400px;
-        
       }
 }
