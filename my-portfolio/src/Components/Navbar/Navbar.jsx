@@ -6,6 +6,7 @@ import iconmail from "../../assets/mail.svg";
 import menu_open from "../../assets/menuopen.svg";
 import menu_close from "../../assets/x-letter.svg";
 import { Link as AnchorLink } from "react-scroll";
+import MovingComponent from "react-moving-text";
 
 const Navbar = () => {
   const menuRef = useRef();
@@ -19,7 +20,17 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <h2>Marah Zeibak</h2>
+      <MovingComponent
+        type="fadeInFromTop"
+        duration="2000ms"
+        delay="0s"
+        direction="normal"
+        timing="ease"
+        iteration="1"
+        fillMode="none"
+      >
+        <h2>Marah Zeibak</h2>
+      </MovingComponent>
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
         <img
@@ -30,30 +41,44 @@ const Navbar = () => {
         />
         <li>
           {" "}
-          <AnchorLink to="Header">Home </AnchorLink>
+          <AnchorLink to="Header" onClick={closeMenu}>
+            Home{" "}
+          </AnchorLink>
         </li>
         <li>
           {" "}
-          <AnchorLink to="About">About me </AnchorLink>
+          <AnchorLink to="About" onClick={closeMenu}>
+            About me{" "}
+          </AnchorLink>
         </li>
         <li>
           {" "}
-          <AnchorLink to="Projects">Porjects </AnchorLink>
+          <AnchorLink to="Projects" onClick={closeMenu}>
+            Porjects{" "}
+          </AnchorLink>
         </li>
-        
       </ul>
-      
+
       <div className="icon">
-        
-        <a href="https://github.com/MarahZE">
-          <img src={icon} alt="" />
-        </a>
-        <a href="https://www.linkedin.com/in/marah-zeibak">
-          <img src={iconLinkedin} alt="" />
-        </a>
-        <a href="mailto:zeibakmarah@gmail.com">
-        <img src={iconmail} alt="" />
-        </a>
+        <MovingComponent
+          type="fadeInFromTop"
+          duration="2000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <a href="https://github.com/MarahZE">
+            <img src={icon} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/marah-zeibak">
+            <img src={iconLinkedin} alt="" />
+          </a>
+          <a href="mailto:zeibakmarah@gmail.com">
+            <img src={iconmail} alt="" />
+          </a>
+        </MovingComponent>
       </div>
     </div>
   );

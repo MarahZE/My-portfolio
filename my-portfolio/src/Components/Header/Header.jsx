@@ -14,11 +14,11 @@ const Header = () => {
         <span style={{ display: "inline-block" }} className="span-text">
           <MovingComponent
             type="squeezeVertical"
-            duration="1500ms"
+            duration="2000ms"
             delay="0.2s"
             direction="normal"
             timing="ease"
-            iteration="1"
+            iteration="2"
             fillMode="none"
           >
             Marah Zeibak{" "}
