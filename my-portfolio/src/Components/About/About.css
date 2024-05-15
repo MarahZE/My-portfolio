@@ -10,6 +10,7 @@
 
 .about-title{
     position: relative;
+    margin-top: 70px;
 }
 
 .about-title h1{
@@ -44,6 +45,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .about-para h1{
@@ -122,6 +124,9 @@
         align-items: center;
     }
 
+    .about-sections{
+        margin-bottom: 0px;
+    }
 
     .about-title h1{
         font-size: 30px;
