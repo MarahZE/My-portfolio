@@ -2,7 +2,7 @@ import React from "react";
 import MovingComponent from "react-moving-text";
 import "./Header.css";
 import backgrund from "../../assets/backgrundLarge.jpeg";
-import small from "../../assets/backgrundSmall.jpeg";
+import small from "../../assets/backgrundMob.jpg";
 
 const Header = () => {
   return (
