@@ -25,13 +25,13 @@ const About = () => {
         <div className="about-right">
           <div className="about-skills">
             <div className="about-skill">
-              <h1>Education</h1> <br></br>
+              <h2>Education</h2> <br></br>
               <p>
               STOCKHOLM UNIVERSITY Bachelor in Computer Science 2020-2024
               </p>
             </div>
             <div className="about-skill">
-              <h1>Technical Skills</h1>
+              <h2>Technical Skills</h2>
               <p>Web Development: HTML, CSS, JavaScript.</p>
               <p>Languages: Java, C++, C#, JavaScript, PHP.</p>
               <p>Database Management: SQL, NoSQL.</p>
@@ -43,7 +43,7 @@ const About = () => {
               </p>
             </div>
             <div className="about-skill">
-              <h1>Languages</h1>
+              <h2>Languages</h2>
               <p>
                 English, Swedish 
               </p>

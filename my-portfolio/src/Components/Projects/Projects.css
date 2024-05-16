@@ -8,7 +8,7 @@
 
 .project-title{
     position: relative;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .project-title h1{
@@ -39,8 +39,12 @@
 }
 
 @media(max-width:768px) {
+    .projects{
+        text-align: center;
+        margin: 80px 70px;
+    }
     .project-title h1{
-        font-size: 40px;
+        font-size: 45px;
         padding: 0;
     }
 
@@ -55,7 +59,7 @@
         margin: 80px 70px;
     }
     .project-title h1{
-        font-size: 30px;
+        font-size: 35px;
         padding: 0;
     }
 
