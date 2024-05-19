@@ -12,21 +12,25 @@ const mywork_data = [
     w_no: 1,
     w_name: "Photo house",
     w_img: project1_img,
+    w_link: "https://github.com/MarahZE/Photo-House",
   },
   {
     w_no: 2,
     w_name: "Beauty home",
     w_img: project2_img,
+    w_link: "https://github.com/MarahZE/e-handel",
   },
   {
     w_no: 3,
     w_name: "My Diary",
     w_img: project3_img,
+    w_link: "https://github.com/MarahZE/android-mobil-app",
   },
   {
     w_no: 4,
     w_name: "FTPServer-Client",
     w_img: project4_img,
+    w_link: "https://github.com/MarahZE/FTPServer-Client",
   }
 ];
 
@@ -46,6 +50,7 @@ const Projects = () => {
               <Zoom>
               <img src={work.w_img} alt={work.title} onClick={handelClick}/>
               </Zoom>
+              <a href={work.w_link}>Click here</a>
             </div>
           );;
         })}
