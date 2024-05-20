@@ -67,8 +67,12 @@
         display: block;
     }
 
+    .background-img img{
+        height: 700px;
+      }
+
     .header{
-        margin-bottom: 200px;
+        margin-bottom: 300px;
     }
 
     .span-text{
@@ -82,7 +86,5 @@
         
     }
 
-    .background-img img{
-        height: auto;
-      }
+    
 }
