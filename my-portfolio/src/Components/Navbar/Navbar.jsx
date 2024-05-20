@@ -28,7 +28,7 @@ const Navbar = () => {
         setUserName("Marah Zeibak");
         break;
       case "About":
-        setUserName("About");
+        setUserName("About me");
         break;
       case "Projects":
         setUserName("Projects");
@@ -54,6 +54,8 @@ const Navbar = () => {
       Events.scrollEvent.remove("end");
     };
   }, []);
+
+  
 
   return (
     <div className="navbar">
