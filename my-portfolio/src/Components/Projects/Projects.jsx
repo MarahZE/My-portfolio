@@ -50,7 +50,7 @@ const Projects = () => {
               <Zoom>
               <img src={work.w_img} alt={work.title} onClick={handelClick}/>
               </Zoom>
-              <a href={work.w_link}>Go to repo github</a>
+              <a href={work.w_link}>Go to github repo</a>
             </div>
           );;
         })}
