@@ -4,6 +4,7 @@ import project1_img from "../../assets/project1.png";
 import project2_img from "../../assets/project2.png";
 import project3_img from "../../assets/project3.png";
 import project4_img from "../../assets/project4.png";
+import project5_img from "../../assets/project5.png";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
@@ -31,6 +32,12 @@ const mywork_data = [
     w_name: "FTPServer-Client",
     w_img: project4_img,
     w_link: "https://github.com/MarahZE/FTPServer-Client",
+  },
+  {
+    w_no: 5,
+    w_name: "NoteApp",
+    w_img: project5_img,
+    w_link: "https://github.com/MarahZE/NoteApp_MVCApplication",
   }
 ];
 
